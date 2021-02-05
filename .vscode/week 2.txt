@@ -1,0 +1,3 @@
+m=('input first number\n')
+n=('input second number\n')
+print(%S=%s,m n)
