@@ -1,5 +1,5 @@
 class nisit:
-    def __init__(self,name,sesname,year,de,sex,form):
+    def __init__(self,name,year,de,sex,form):
         self.name = name 
         self.year =year
         self.de = de #department=สาขาวิชา
@@ -9,10 +9,10 @@ class nisit:
     def introduce(self):
         print("--------Introduce myself---------")
         print("name:",self.name)
-        print("year:")
+        print("year:",self.year)
         print("department:",self.de)
         print("sex:",self.sex)
         print("school from:",self.form)
 
-C=nisit("chadchalidh","insenla","1","computer ed.","male","keannakhon witayalai")
+C=nisit("chadchalidh insenla","1","computer ed.","male","keannakhon witayalai")
 C.introduce()
